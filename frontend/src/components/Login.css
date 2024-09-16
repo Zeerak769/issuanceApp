@@ -1,0 +1,78 @@
+.login-form {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 30px; /* Increased padding for better spacing */
+  border: 1px solid #ddd;
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Softer shadow */
+  background-color: #ffffff; /* White background for a clean look */
+}
+
+.login-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 1.75rem; /* Larger heading for emphasis */
+  color: #333; /* Darker text for better readability */
+}
+
+.login-form input,
+.login-form select {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem; /* Improved font size for readability */
+  box-sizing: border-box; /* Ensure padding and border are included in width */
+}
+
+.login-form input:focus,
+.login-form select:focus {
+  border-color: #007BFF; /* Highlight border on focus */
+  outline: none; /* Remove default outline */
+  box-shadow: 0 0 4px rgba(0, 123, 255, 0.5); /* Add subtle shadow on focus */
+}
+
+.login-form button {
+  width: 100%;
+  padding: 12px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem; /* Consistent font size with inputs */
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.login-form button:hover {
+  background-color: #0056b3;
+  transform: scale(1.02); /* Slight zoom effect on hover */
+}
+
+.login-form button:active {
+  background-color: #004494; /* Darker color for active state */
+  transform: scale(0.98); /* Slight shrink effect on click */
+}
+
+.create-account {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 1rem;
+}
+
+.create-account a {
+  color: #007BFF;
+  text-decoration: none;
+  font-weight: bold; /* Make the link text bold */
+  transition: color 0.3s ease, text-decoration 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.create-account a:hover {
+  color: #0056b3; /* Darker blue on hover */
+  text-decoration: underline; /* Underline on hover */
+}
+
+.create-account a:active {
+  color: #004494; /* Darker color when the link is clicked */
+}

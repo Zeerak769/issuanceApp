@@ -1,0 +1,26 @@
+/* src/components/RequestCard.css */
+
+.request-card {
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .request-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .request-card h4 {
+    margin: 0;
+    font-size: 1.2em;
+  }
+  
+  .request-card p {
+    margin: 5px 0;
+  }
+  

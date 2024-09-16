@@ -1,0 +1,74 @@
+/* src/components/IssuancePanel.css */
+
+.issuance-panel {
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 800px; /* Set a max-width for better readability */
+  width: 100%; /* Full width within its max-width limit */
+  margin: 20px auto; /* Center the panel horizontally with spacing */
+}
+
+.issuance-panel h3 {
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.dropdown-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* Space between elements */
+}
+
+.request-select {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+  background-color: #fff;
+  cursor: pointer;
+  width: 100%; /* Full width of its container */
+}
+
+.issue-button {
+  padding: 10px 15px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  width: 100%; /* Full width of its container */
+}
+
+.issue-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.issue-button:hover {
+  background-color: #0056b3;
+  transform: scale(1.02); /* Slight zoom effect on hover */
+}
+
+.navigate-button {
+  padding: 10px 15px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  width: 100%; /* Full width of its container */
+  margin-top: 15px; /* Space above the button */
+}
+
+.navigate-button:hover {
+  background-color: #218838;
+  transform: scale(1.02); /* Slight zoom effect on hover */
+}
